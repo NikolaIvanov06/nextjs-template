@@ -31,6 +31,7 @@ a {
   align-items: center;
   font-size: 23px;
   font-weight: 500;
+  justify-content: space-between;
 }
 
 footer {
@@ -41,45 +42,64 @@ footer {
 }
 
 .navigation-logo {
-  font-size: 28px;
+
+  font-size: 25px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #fd0202;
+  background-color: #000000;
   padding: 5px;
   border-radius: 4px;
 }
+.logo{
+width: 80px;
+height: auto;
+
+}
 
 .navigation-link {
+  
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px;
   transition: all 0.3s ease;
 }
 
 .navigation-link:hover {
-  color: #fd0202;
+  color: #6e6b6b;
 }
 
 .cover {
-  background-image: url('/intro-background.jpg');
+  background-image: url('/artic.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
   padding: 20px;
-  text-align: right;
+  text-align: center;
 }
 
 .title {
-  color: #fd0202;
+  color: #0c1111;
   font-size: 90px;
 }
-
+.title:hover {
+  color: #392bb8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: 2s;
+  font-size: 90px;
+}
 .section-title {
   font-size: 50px;
-  color: #fd0202;
+  color: #36a198;
 }
 
+
 .card-name {
-  font-size: 28px;
-  color: #fd0202;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  padding: 5px;
+  color: #000000;
 }
 
 .columns {
@@ -109,6 +129,7 @@ footer {
 }
 
 .card-container {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -118,7 +139,7 @@ footer {
   flex-direction: column;
   align-items: center;
   max-width: 300px;
-  border: 1px solid #fd0202;
+  border: 1px solid #000000;
   margin: 5px;
   padding: 5px;
   border-radius: 5px;

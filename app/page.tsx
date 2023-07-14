@@ -4,101 +4,85 @@ export default function Home() {
   return (
     <div>
       <div className="cover">
-        <h1 className="title">Enter your title</h1>
+        <h1 className="title">Антарктика</h1>
       </div>
 
       <div className="columns">
         <div className="column-half">
-          <img className="image" src="/image01.jpg" alt="image01" />
+          <img className="image" src="/ant1.jpg" alt="ant1" />
         </div>
         <div className="column-half">
-          <h2 className="section-title">Introduction</h2>
+          <h2 className="section-title">Въведение</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            reiciendis alias saepe nam atque molestias, perspiciatis itaque, ad
-            perferendis minus odio laborum dolore, aliquid natus non quia
-            debitis at omnis!
+          Арктика е полярен регион, разположен в най-северната част на Земята. Арктика се състои от Северния ледовит океан, съседните морета и части от Канада (Юкон, Северозападни територии, Нунавут), Датско кралство (Гренландия), Северна Финландия (Лапландия), Исландия, Северна Норвегия (Финмарк и Свалбард), Русия (Мурманск, Сибир, Ненецки окръг, Нова Земля), най-северната част на Швеция и САЩ (Аляска). Земята в Арктическия регион има сезонно променяща се снежна и ледена покривка, с преобладаващо безлесна вечна замръзналост (постоянно замръзнал подземен лед) под тундрата. Арктическите морета съдържат сезонен морски лед на много места.
+
+Арктическият регион е уникална зона сред екосистемите на Земята. Културите в региона и коренното население на Арктика са се адаптирали към студените и екстремни условия. Животът в Арктика включва зоопланктон и фитопланктон, риби и морски бозайници, птици, сухоземни животни, растения и човешки общества. Aрктическата земя граничи със субарктиката.
           </p>
         </div>
       </div>
 
       <div className="columns">
         <div className="column-half">
-          <h2 className="section-title">Some more info</h2>
+          <h2 className="section-title">Още </h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            reiciendis alias saepe nam atque molestias, perspiciatis itaque, ad
-            perferendis minus odio laborum dolore, aliquid natus non quia
-            debitis at omnis!
+          Думата Арктика идва от гръцката дума ἀρκτικός (arktikos), „близо до мечката“. Името се отнася или до съзвездието Голяма мечка, „Голямата мечка“, което е видно в северната част на небесната сфера, или до съзвездието Малка мечка, „Малката мечка“, което съдържа небесния северен полюс (понастоящем много близо до Поларис, сегашната северна полярна звезда или Полярна звезда).
+
+Има редица дефиниции за това каква област се съдържа в Арктика. Районът може да се определи като северно от Арктическия кръг (около 66° 34'N), приблизителната южна граница на среднощното слънце и полярната нощ. Друго определение за Арктика, което е популярно сред еколозите, е регионът в Северното полукълбо, където средната температура за най-топлия месец (юли) е под 10 °C (50 °F); най-северната линия на дърветата грубо следва изотермата на границата на този регион
           </p>
         </div>
         <div className="column-half">
-          <img className="image" src="/image01.jpg" alt="image01" />
+          <img className="image" src="/ant2.jpg" alt="ant2" />
         </div>
       </div>
 
       <div className="container">
-        <h2 className="section-title">Some text</h2>
+        <h2 className="section-title">Климат</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
-          incidunt! Eius iste omnis unde maxime ut quidem. Eos, dolore
-          repellendus ipsum voluptas possimus et dicta at ad nihil sit officiis!
+        Арктика се характеризира със студени зими и прохладни лета. Валежите идват предимно под формата на сняг и са малко, като по-голямата част от района получава под 50 см (20 инча). Силните ветрове често вдигат сняг, създавайки илюзията за непрекъснат снеговалеж. Средните зимни температури могат да достигнат до −40 °C (−40 °F), а най-студената регистрирана температура е приблизително −68 °C (−90 °F). Крайбрежният арктически климат се смекчава от океанските влияния, като обикновено има по-високи температури и по-обилни снеговалежи, отколкото в по-студените и сухи вътрешни райони. Арктика е засегната от текущото глобално затопляне, което води до свиване на леда в Арктика, намаляване на леда в ледената покривка на Гренландия и освобождаване на арктически метан при размразяването на вечната замръзналост. Топенето на ледената покривка на Гренландия е свързано с полярното усилване.
         </p>
       </div>
 
       <div className="container">
-        <h2 className="section-title">Gallery</h2>
+        <h2 className="section-title">Галерия</h2>
         <div className="gallery">
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image02.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
+          <img className="gallery-image" src="/arc1.png" alt="image01" />
+          <img className="gallery-image" src="/arc2.png" alt="image01" />
+          <img className="gallery-image" src="/ark3.png" alt="image01" />
+          <img className="gallery-image" src="/arc4.png" alt="image01" />
+          <img className="gallery-image" src="/arc2.png" alt="image01" />
+          <img className="gallery-image" src="/arc1.png" alt="image01" />
         </div>
       </div>
 
       <div className="container">
-        <h2 className="section-title">Our clients</h2>
+    <h2 className="section-title"><center>Мнения на туристи</center></h2>
         <div className="card-container">
           <div className="card">
             <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <h3 className="card-name">Ачо</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+                "Много готино ама мега стдено ей"
             </p>
           </div>
           <div className="card">
             <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <h3 className="card-name">Симеон</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+              "Бруталка!!!"
             </p>
           </div>
           <div className="card">
             <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <h3 className="card-name">Джеймс</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+              "Such a good continent!"
             </p>
           </div>
           <div className="card">
             <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <h3 className="card-name">Пешо</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+              "Много тъпо!"
             </p>
           </div>
         </div>
